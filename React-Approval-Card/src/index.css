@@ -1,0 +1,32 @@
+/* Style the ApprovalCard component */
+.ApprovalCard {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the CommentDetail component */
+.CommentDetail {
+  display: flex;
+  align-items: center;
+}
+
+.CommentDetail img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.CommentDetail .content {
+  margin-left: 10px;
+}
+
+.CommentDetail .author {
+  font-weight: bold;
+}
+
+.CommentDetail .timeAgo {
+  color: gray;
+}
